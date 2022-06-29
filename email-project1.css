@@ -1,0 +1,14 @@
+.navbar{
+background-color: #3c6e71;
+}
+body {
+    background-color: rgb(255, 255, 255);
+}
+.inbox {
+    background-color: #D9D9D9;
+}
+.container-fluid {
+    background-color: #3c6e71;
+    height: 100%;
+    min-height: 100%;
+}
