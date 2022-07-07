@@ -10,21 +10,23 @@
   <script src="https://kit.fontawesome.com/60a0fab866.js" crossorigin="anonymous"></script>
 </head>
 <body>
-  <div class="container-fluid d-flex flex-column">
-    <nav class="navbar navbar-expand-md">
-        <div class="container-fluid">
+  <div class="container-fluid" style="height: 100%">
+    <div class="row">
+      <div class="col">
+      <nav class="navbar navbar-expand-md border-primary">
+          <div class="container-fluid">
             <i class="fa-solid fa-envelope-open-text"></i>
-          <a class="navbar-brand col align-self-start" href="#">Inbox</a>
+          <a class="navbar-brand" href="#">Inbox</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon "></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Send E-mail</a>
+                <a class="nav-link active" aria-current="page" href="#">New E-mail</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Sent</a>
+                <a class="nav-link" href="#">contacts</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Tagged</a>
@@ -35,96 +37,82 @@
             </ul>
           </div>
         </div>
+        </div>
+        </div>
       </nav>
-    <div class="inbox-fluid order-2 d-flex flex-row">
-        <div class="inbox1">
-          <nav class="navbar">
-            <div class="container">
-              <form class="d-flex" role="search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
-              </form>
-            </div>
-          </nav>
-          <div class="toast fade show" role="alert" aria-live="assertive" aria-atomic="true">
-            <div class="toast-body">
-              E mail From: mike_awsome@yourspace.com
-              <div class="mt-2 pt-2 border-top">
-                <button type="button" class="btn btn-primary btn-sm">Read</button>
-                <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="toast">Ignore</button>
-              </div>
-            </div>
-          </div>
-          <div class="toast fade show" role="alert" aria-live="assertive" aria-atomic="true">
-            <div class="toast-body">
-              E mail From: mike_awsome@yourspace.com
-              <div class="mt-2 pt-2 border-top">
-                <button type="button" class="btn btn-primary btn-sm">Read</button>
-                <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="toast">Ignore</button>
-              </div>
-            </div>
-          </div>
-          <div class="toast fade show" role="alert" aria-live="assertive" aria-atomic="true">
-            <div class="toast-body">
-              E mail From: mike_awsome@yourspace.com
-              <div class="mt-2 pt-2 border-top">
-                <button type="button" class="btn btn-primary btn-sm">Read</button>
-                <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="toast">Ignore</button>
-              </div>
-            </div>
-          </div>
-          <div class="toast fade show" role="alert" aria-live="assertive" aria-atomic="true">
-            <div class="toast-body">
-              E mail From: mike_awsome@yourspace.com
-              <div class="mt-2 pt-2 border-top">
-                <button type="button" class="btn btn-primary btn-sm">Read</button>
-                <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="toast">Ignore</button>
-              </div>
-            </div>
-          </div>
-          <div class="toast fade show" role="alert" aria-live="assertive" aria-atomic="true">
-            <div class="toast-body">
-              E mail From: mike_awsome@yourspace.com
-              <div class="mt-2 pt-2 border-top">
-                <button type="button" class="btn btn-primary btn-sm">Read</button>
-                <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="toast">Ignore</button>
-              </div>
-            </div>
-          </div>
-          <div class="toast fade show" role="alert" aria-live="assertive" aria-atomic="true">
-            <div class="toast-body">
-              E mail From: mike_awsome@yourspace.com
-              <div class="mt-2 pt-2 border-top">
-                <button type="button" class="btn btn-primary btn-sm">Read</button>
-                <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="toast">Ignore</button>
-              </div>
-            </div>
+      <div class="row">
+        <div class="col-3">
+      <div class="container" style="width: 25rem">
+      <nav class="navbar">
+        <div class="container-fluid">
+          <form class="d-inline-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+        </div>
+      </nav>
+      <div class="card" style="max-width: 25rem; min-width: 20rem; background-color: rgb(211, 218, 218);">
+        <div class="card-body">
+          <h5 class="card-title">Mike.johnson@gmail.com</h5>
+            <h6 class="card-subtitle mb-2 text-muted">4 Hours Ago</h6>
+            <p class="card-text">Need you to contact me asap...</p>
+            <a href="#" class="btn btn-primary" style="background-color:rgb(23, 82, 133)">Read</a>
+            <a href="#" class="btn btn-primary">Move to Junk</a>
+        </div>
+      </div>
+      <div class="card" style="max-width: 25rem; min-width: 20rem;">
+        <div class="card-body">
+          <h5 class="card-title">dominos@dominos.usa</h5>
+          <h6 class="card-subtitle mb-2 text-muted">1 Day ago</h6>
+          <p class="card-text">Free rewards...</p>
+          <a href="#" class="btn btn-primary">Read</a>
+          <a href="#" class="btn btn-primary">Move to Junk</a>
+        </div>
+      </div>
+      <div class="card" style="max-width: 25rem; min-width: 20rem;">
+        <div class="card-body">
+          <h5 class="card-title">dominos@dominos.usa</h5>
+          <h6 class="card-subtitle mb-2 text-muted">1 Day ago</h6>
+          <p class="card-text">Free rewards...</p>
+          <a href="#" class="btn btn-primary">Read</a>
+          <a href="#" class="btn btn-primary">Move to Junk</a>
+        </div>
+      </div>
+      <nav aria-label="Page navigation example">
+        <ul class="pagination">
+          <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+          <li class="page-item"><a class="page-link" href="#">1</a></li>
+          <li class="page-item"><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item"><a class="page-link" href="#">Next</a></li>
+        </ul>
+      </nav>
+      </div>
+      <div class="col-xl-3 d-none d-xl-block align-self-center">
+        <div class="card" style="max-width: 55vw; min-width; 45vw; height: 72vh; ">
+          <div class="card-body">
+            <h5 class="card-title">Mike.johnson@gmail.com</h5>
+            <h6 class="card-subtitle mb-2 text-muted">4 Hours Ago</h6>
+            <p class="card-text">Need you to contact me asap.<br> There was a problem with the project, you need to fix it before the second quarter.<br> PS.<br> The Boss is pissed. So call me as soon as you read this for the details.</p>
+            <a href="#" class="btn btn-primary">Reply</a>
+            <a href="#" class="btn btn-primary">move to junk</a>
           </div>
         </div>
-        <div class="card" style="width: 1161px;">
-          <div class="d-none d-md-block">
+      </div>
+      <div class="col-xl-6 d-none d-sm-block align-self-center">
+        <div class="card" style="max-width: 55vw; min-width; 20vw; height: 72vh; ">
           <div class="card-body">
-            <h5 class="card-title">Mike_awsome@yourspace.com</h5>
-            <h6 class="card-subtitle mb-2 text-muted">5hrs ago</h6>
-            <p class="card-text">Hello,<br>i am reaching you to talk to you about you car extended warranty.</p>
-            <a href="#" class="card-link">reply</a>
-            <a href="#" class="card-link">delete</a>
+            <h5 class="card-title">New Email</h5>
+            <h6 class="card-subtitle mb-2 text-muted">To:</h6>
+            <h6 class="card-subtitle mb-2 text-muted">From:</h6>
+            <h6 class="card-subtitle mb-2 text-muted">subject:</h6>
+            <p class="card-text"></p>
+            <a href="#" class="btn btn-primary">Send</a>
           </div>
+        </div>
         </div>
       </div>
     </div>
-    <nav class="navbar navbar-expand-lg order-3">
-      <div class="d-none d-md-block">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Welcome "user.new@yourspace.com"</a>
-          <span class="navbar-text">
-            <i class="fa-solid fa-gear"></i>
-          </span>
-        </div>
-      </div>
-      </div>
-    </nav>
-  </div>
-</div>
 </body>
 </html>
